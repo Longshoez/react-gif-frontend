@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente GifContainer Renderizar componente 1`] = `
+<div
+  className="gifComponent animate__animated animate__fadeIn"
+>
+  <h2
+    className="gifTitle"
+  >
+    a title
+  </h2>
+  <img
+    alt="a title"
+    className="gifImage"
+    src="https://localhost/somesome.jpg"
+  />
+</div>
+`;
