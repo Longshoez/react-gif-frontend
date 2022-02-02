@@ -11,3 +11,8 @@ const GifContainer = ({title, url, id}) => {
 };
 
 export default GifContainer;
+
+/**
+ * enzyme
+ * enzyme to json
+ */
