@@ -3,8 +3,8 @@ import { AddCategory } from '../AddCategorry/AddCategory';
 import { GifGrid } from '../GifGrid/GifGrid';
 import '../../index.css'
 
-export const GifExpertApp = () => {
-    const [categories, setCategories] = useState(['mandalorian']);
+export const GifExpertApp = ({defaultCategories = ['Mandalorian']}) => {
+    const [categories, setCategories] = useState(defaultCategories);
 
     // const handleAdd = (value) => {
     //     //Con operador spread

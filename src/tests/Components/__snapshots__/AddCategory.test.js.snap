@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` should render correctly 1`] = `
+<form
+  className="searchbar"
+  onSubmit={[Function]}
+>
+  <p />
+  <input
+    onChange={[Function]}
+    placeholder="Add a category"
+    type="text"
+    value=""
+  />
+</form>
+`;

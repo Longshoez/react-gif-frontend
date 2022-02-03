@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GifExpertApp Component component should render 1`] = `
+<div>
+  <div>
+    <h2
+      className="header"
+    >
+      Gif app 🔥
+    </h2>
+    <AddCategory
+      setCategories={[Function]}
+    />
+  </div>
+  <GifGrid
+    category="Mandalorian"
+    key="Mandalorian"
+  />
+</div>
+`;
+
+exports[`Testing GifExpertApp Component should  show a category list 1`] = `
+<div>
+  <div>
+    <h2
+      className="header"
+    >
+      Gif app 🔥
+    </h2>
+    <AddCategory
+      setCategories={[Function]}
+    />
+  </div>
+  <GifGrid
+    category="mandalorian"
+    key="mandalorian"
+  />
+  <GifGrid
+    category="star wars"
+    key="star wars"
+  />
+</div>
+`;

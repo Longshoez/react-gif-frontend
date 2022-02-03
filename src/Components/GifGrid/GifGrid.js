@@ -2,6 +2,7 @@ import React from 'react';
 import { useFetchGifs } from '../../hooks/useFetchGifs';
 import GifContainer from '../GifContainer/GifContainer';
 import 'animate.css'
+import PropTypes from 'prop-types';
 
 export const GifGrid = ({category}) => {
 
@@ -9,8 +10,8 @@ export const GifGrid = ({category}) => {
 
   return (
       <div>
-          <h2 className='searchText'>{category}</h2>
-          <p className='searchText animate__animated animate__flash'>{loading && 'Loading'}</p>
+          <h2 className='searchText'>{category}</h2>          
+          {loading && <p className='searchText animate__animated animate__flash'>Loading</p>}
           <ol className='gifSearchContainer'>
               {images.map(gif => (
                   <GifContainer title={gif.title} url={gif.url} key={gif.id}/>
@@ -20,5 +21,6 @@ export const GifGrid = ({category}) => {
   );
 };
 
-
-//api key="YhX0MRx9ZIadjHw9UFbzD662kMpNnAVQ"
+GifGrid.propTypes = {
+    category: PropTypes.string.isRequired
+}

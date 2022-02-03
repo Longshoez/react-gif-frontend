@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GifGrid Component should render Component 1`] = `
+<div>
+  <h2
+    className="searchText"
+  >
+    Something
+  </h2>
+  <p
+    className="searchText animate__animated animate__flash"
+  >
+    Loading
+  </p>
+  <ol
+    className="gifSearchContainer"
+  />
+</div>
+`;
